@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos</title>
+</head>
+<body>
+    
+    <header>
+    <h1>Porcentajes y descuentos</h1>
+    <p>Este es el segundo taller del curso práctico de JavaSscript</p>
+    </header>
+
+    <section>
+        <h2>Calcular el precio a pagar de tus productos con descuento</h2>
+
+        <form>
+            <label for="InputPrice">Escribe el precio de tu producto</label>
+            <input id="InputPrice" type="number>
+
+            <label for="InputCoupon">Escribe el cupón de descuento para tu producto:</label>
+            <input id="InputCoupon" type="text" />
+            
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular el precio con descuento
+            </button>
+
+        </form>
+
+        <p id="ResultPrice"></p>
+
+    </section>
+
+    <script src="./descuentos.js"></script>
+
+    <!--
+        oninput="onClickButtonPriceDiscount()"
+        
+        https://glassmorphism.com/
+        https://cssgradient.io/gradient-backgrounds/
+        Por si quieren un recurso “extra”
+        https://www.freecodecamp.org/learn
+    -->
+
+</body>
+</html>
